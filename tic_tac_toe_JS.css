@@ -1,0 +1,71 @@
+body {
+  background: #795548 !important;
+}
+#tiles > button {
+  width: 120px;
+  height: 120px;
+  border-radius: 0 !important;
+  margin: 2px 0px 2px 0px;
+  border-color: #212121 !important;
+  font-weight: bold;
+  font-size: 120%;
+  background: #212121;
+  color: white;
+  ;
+}
+
+#tiles > button button:focus {
+  background: #212121 !important;
+  border-color: #212121;
+}
+#tiles > button:hover {
+  background: #212121 !important;
+  border-color: #212121;
+}
+#tiles {
+  border: solid 1px #607d8b;
+  width: 430px;
+  height: 430px;
+  padding: 27px 0px 0px 30px;
+  margin: 10px 0px 0px 468px;
+  border-radius: 10px;
+  background: #607d8b;
+}
+
+body > p{
+  color: white;
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 300%;
+  padding: 30px 0px 0px 580px;
+}
+
+.modal-body > p {
+  font-size: 150% !important;
+  padding-left: 250px !important;
+  font-weight: bold;
+}
+
+.modal-header > h2 {
+  color: black !important;
+  padding-left: 200px;
+}
+
+.modal-footer {
+  padding: 15px 190px 15px 0px !important;
+}
+
+.modal-footer > button {
+  font-weight: bold;
+  width: 100px
+}
+
+.modal-footer > button#restart {
+  margin-right: 70px;
+}
+
+#result_text {
+  font-size: 150% !important;
+  padding-left: 250px !important;
+  font-weight: bold;
+}

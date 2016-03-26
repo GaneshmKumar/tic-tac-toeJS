@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>tic-tac-toeJS</title>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+ </script>
+<script src = "tic_tac_toe_JS.js" ></script>
+<link rel="stylesheet" type="text/css" href="tic_tac_toe_JS.css">
+  </head>
+  <body>
+    <div id="option" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h2 class="modal-title">Tic Tac Toe</h2>
+      </div>
+      <div class="modal-body">
+        <p>X or O</p>
+      </div>
+      <div class="modal-footer">
+        <button id  = "modal-button-X" type="button" class="btn btn-default" data-dismiss="modal" value = "X">X</button>
+        <button id  = "modal-button-O" type="button" class="btn btn-default" data-dismiss="modal" value = "O">O</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <p>Tic Tac Toe</p>
+    <div id = "tiles">
+      <button name = "0" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "1" id = "tile"  class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "2" id = "tile"  class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "3" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "4" id = "tile"  class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "5" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "6" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "7" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+      <button name = "8" id = "tile" class = "btn btn-default" value = "-1" onclick = "gameplay(this.name, this.value)"></button>
+    </div>
+    
+    <div id="result" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+      </div>
+      <div id = "result_text" class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button id  = "restart" type="button" class="btn btn-default" data-dismiss="modal">RESTART</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </body>
+</html>
